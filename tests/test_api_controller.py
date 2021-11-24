@@ -1,6 +1,8 @@
 from unittest import TestCase
 from random import randint
-from src.api_controller import APIController
+from sys import path
+path.append('./../src')
+from api_controller import APIController
 
 
 class APIControllerTestCase(TestCase):

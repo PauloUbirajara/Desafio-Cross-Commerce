@@ -1,5 +1,7 @@
 from unittest import TestCase
-from src.merge_sort import sort_array_by_merge_sort
+from sys import path
+path.append('./../src')
+from merge_sort import sort_array_by_merge_sort
 
 
 class MergeSortTestCase(TestCase):
