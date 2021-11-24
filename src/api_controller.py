@@ -1,4 +1,3 @@
-from bs4 import BeautifulSoup
 from requests import get
 from json import loads
 
