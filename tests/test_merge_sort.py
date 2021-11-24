@@ -18,5 +18,5 @@ class MergeSortTestCase(TestCase):
     def test_should_throw_error_if_invalid_array(self):
         arr = [25, 40, 50, 90, 10, "string"]
 
-        with self.assertRaises(Exception):
+        with self.assertRaises(TypeError):
             _ = sort_array_by_merge_sort(arr)
